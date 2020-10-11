@@ -11,7 +11,7 @@ metadata:
 #    fluxcd.io/tag.podinfod: semver:~3.1
     fluxcd.io/automated: 'true'
 spec:
-  replicas: 1
+  replicas: 4
   strategy:
     rollingUpdate:
       maxUnavailable: 0
